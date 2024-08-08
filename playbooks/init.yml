@@ -1,0 +1,11 @@
+---
+- name: Clone git repository to roles directory
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Clone the git repository into the roles directory
+      git:
+        repo: 'git@gitlab.com:sanchpet/my-ansible-roles.git'
+        dest: ../roles
+        version: master
+        force: yes
