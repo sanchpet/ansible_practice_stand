@@ -1,4 +1,0 @@
-[web]
-
-lf-web1 ansible_host=prod.ansible ansible_user=root ansible_ssh_private_key=~/.ssh/id_rsa_lfactory_ansible
-lf-web1.stage ansible_host=stage.ansible ansible_user=root ansible_ssh_private_key=~/.ssh/id_rsa_lfactory_ansible

@@ -3,4 +3,3 @@
 
   roles:
     - { role: common }
-    - { role: swaptrasher }
