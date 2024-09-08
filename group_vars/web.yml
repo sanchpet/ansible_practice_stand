@@ -1,2 +1,7 @@
 ---
 swap_size: 2G
+
+additional_packages:
+  - git
+  - zip
+  - htop

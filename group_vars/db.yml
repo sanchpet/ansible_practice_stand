@@ -1,2 +1,7 @@
 ---
 swap_size: 1G
+
+additional_packages:
+  - mc
+  - htop
+  - rsync
